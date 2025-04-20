@@ -87,16 +87,19 @@ public class JSONRequest extends JSONObject implements apijson.JSONRequest<JSONO
 		}
 
         Object target = null;
-        try {
-            target = JSON.parse(value);
-        } catch (Exception e) {
-            // nothing
-			e.printStackTrace();
-        }
+		Class<?> cls = value.getClass();
+		if ( ! (value instanceof Map<?, ?> || value instanceof Collection<?> || JSON.isBoolOrNumOrStr(value))) {
+			try {
+				target = JSON.parse(value);
+			} catch (Exception e) {
+				// nothing
+				e.printStackTrace();
+			}
+		}
         //		if (target == null) { // "tag":"User" 报错
 		//			return null;
 		//		}
-		return super.put(StringUtil.isNotEmpty(key, true) ? key : value.getClass().getSimpleName() //must handle key here
+		return super.put(StringUtil.isNotEmpty(key, true) ? key : cls.getSimpleName() //must handle key here
 				, target == null ? value : target);
 	}
 
