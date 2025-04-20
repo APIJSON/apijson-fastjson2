@@ -5,7 +5,7 @@
 
 	<groupId>apijson.fastjson2</groupId>
 	<artifactId>apijson-fastjson2</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>APIJSONRouter</name>
@@ -44,7 +44,7 @@
 		<dependency>
 			<groupId>com.github.APIJSON</groupId>
 			<artifactId>apijson-framework</artifactId>
-			<version>7.2.0</version>
+			<version>7.2.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba.fastjson2</groupId>
