@@ -15,7 +15,6 @@ limitations under the License.*/
 package apijson.fastjson2.javax;
 
 import apijson.RequestMethod;
-import apijson.framework.APIJSONApplication;
 import apijson.orm.AbstractSQLConfig;
 import apijson.orm.Join;
 import apijson.orm.SQLConfig;
