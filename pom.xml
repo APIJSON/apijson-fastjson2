@@ -8,7 +8,7 @@
 	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
-	<name>APIJSONRouter</name>
+	<name>apijson-fastjson2</name>
 	<description>APIJSON plugin with fastjson2 to simplify the use of APIJSON</description>
 
 	<properties>
