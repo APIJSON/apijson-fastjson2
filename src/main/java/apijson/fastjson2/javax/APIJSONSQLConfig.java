@@ -72,12 +72,14 @@ public class APIJSONSQLConfig<T> extends apijson.framework.javax.APIJSONSQLConfi
 	public static class SimpleCallback<T> extends AbstractSQLConfig.SimpleCallback<T, JSONObject, JSONArray> {
 
 		@Override
-		public SQLConfig<T, JSONObject, JSONArray> getSQLConfig(RequestMethod method, String database, String schema
-				, String datasource, String table) {
+		public SQLConfig<T, JSONObject, JSONArray> getSQLConfig(RequestMethod method, String database
+				, String datasource, String namespace, String catalog, String schema, String table) {
 			SQLConfig<T, JSONObject, JSONArray> config = APIJSONApplication.createSQLConfig();
 			config.setMethod(method);
 			config.setDatabase(database);
 			config.setDatasource(datasource);
+			config.setNamespace(namespace);
+			config.setCatalog(catalog);
 			config.setSchema(schema);
 			config.setTable(table);
 			return config;
