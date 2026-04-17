@@ -66,7 +66,7 @@ public class APIJSONSQLConfig<T> extends apijson.framework.javax.APIJSONSQLConfi
 	public static <T> SQLConfig<T, JSONObject, JSONArray> newSQLConfig(
 			RequestMethod method, String table, String alias, JSONObject request, List<Join<T
 			, JSONObject, JSONArray>> joinList, boolean isProcedure) throws Exception {
-		return newSQLConfig(method, table, alias, request, joinList, isProcedure, new SimpleCallback<T>() {});
+		return newSQLConfig(method, table, alias, request, joinList, isProcedure, (SimpleCallback<T>) SIMPLE_CALLBACK);
 	}
 
 	public static class SimpleCallback<T> extends AbstractSQLConfig.SimpleCallback<T, JSONObject, JSONArray> {
