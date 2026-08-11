@@ -115,7 +115,7 @@ public class APIJSONApplication extends apijson.framework.APIJSONApplication {
      * @throws Exception
      */
     public static <T, M extends Map<String, Object>, L extends List<Object>> void init(
-            @NotNull apijson.framework.APIJSONCreator<T, M, L> creator) throws Exception {
+            @NotNull APIJSONCreator<T, M, L> creator) throws Exception {
         init(true, creator);
     }
     /**初始化，加载所有配置并校验
