@@ -146,6 +146,6 @@ https://github.com/APIJSON/APIJSON/issues/36
 
 <br /><br />
 
-#### 点右上角 ⭐Star 支持一下，谢谢 ^_^
-#### Please ⭐Star this project ^_^
+#### 创作不易、坚持更难，点亮右上角 ⭐ Star 收藏/支持下吧，谢谢 ^_^
+#### Please ⭐ Star this project ^_^
 https://github.com/APIJSON/apijson-fastjson2
