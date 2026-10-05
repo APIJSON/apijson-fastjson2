@@ -1,6 +1,6 @@
 # apijson-fastjson2  [![](https://jitpack.io/v/APIJSON/apijson-fastjson2.svg)](https://jitpack.io/#APIJSON/apijson-fastjson2)
-[APIJSON](https://github.com/Tencent/APIJSON) 8.3.2+ 的 fastjson2 插件，简化使用。<br />
-A fastjson2 plugin for [APIJSON](https://github.com/Tencent/APIJSON) 8.3.2+.<br />
+[APIJSON](https://github.com/APIJSON/APIJSON) 8.3.2+ 的 fastjson2 插件，简化使用。<br />
+A fastjson2 plugin for [APIJSON](https://github.com/APIJSON/APIJSON) 8.3.2+.<br />
 
 
 ## 添加依赖
